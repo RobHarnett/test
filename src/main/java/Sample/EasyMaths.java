@@ -21,6 +21,7 @@ public  class EasyMaths {
      * @return 
      */
     public boolean equal(int[] array1, int[] array2) {
+        //Robin added a comemnt
         System.out.println("running equal method");
         if ((array1 == null) || (array2 == null)) {
             throw new IllegalArgumentException("null argument");
